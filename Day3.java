@@ -8,3 +8,11 @@ import java.io.*;
  
          public static void main(String[] args) {
      
+             Scanner sc=new Scanner(System.in);
+             int n=sc.nextInt();            
+             String answer;
+             if(n%2==1) {
+                 answer = "Weird";
+             } else if (n >= 6 && n <= 20) {
+                 answer = "Weird";
+             } else {
