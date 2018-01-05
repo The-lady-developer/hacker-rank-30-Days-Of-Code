@@ -16,3 +16,9 @@ import java.io.*;
              } else if (n >= 6 && n <= 20) {
                  answer = "Weird";
              } else {
+                   answer = "Not Weird";
+             }
+             System.out.println(answer);
+             
+         }
+   }
